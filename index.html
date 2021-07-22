@@ -5,10 +5,32 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>My first page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <style>
+        div#line1 span#a {
+            margin-top: 200;
+            margin-left: 200;
+   
+  }
+  
+  div#line1:hover span#a {
+    display: none;
+  }
+  
+  div#line1 h1#b {
+    display: none;
+  }
+  
+  div#line1:hover h1#b {
+    display: inline;
+    color: blue;
+    
+   
+  }
+    </style>
 </head>
 <body>
-    Hell, It's me.
+    <div id="line1">
+        <span id="a">Hey, Hover me</span><h1 id="b">Hey, I am Potato and I hate Sahil :(</h1>
+    </div>
 </body>
 </html>
